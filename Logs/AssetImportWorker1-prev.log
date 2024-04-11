@@ -1,0 +1,667 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16095 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity3d\Unity 2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/xiexi/Desktop/Exam/Exam
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51931
+Successfully changed project path to: C:/Users/xiexi/Desktop/Exam/Exam
+C:/Users/xiexi/Desktop/Exam/Exam
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26724] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2306123514 [EditorId] 2306123514 [Version] 1048832 [Id] WindowsEditor(7,Àâ¾µµÄÐÇÐÇ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [26724] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2306123514 [EditorId] 2306123514 [Version] 1048832 [Id] WindowsEditor(7,Àâ¾µµÄÐÇÐÇ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 126.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path D:/Unity3d/Unity 2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/xiexi/Desktop/Exam/Exam/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a6)
+    Vendor:   Intel
+    VRAM:     8047 MB
+    Driver:   31.0.101.4575
+Initialize mono
+Mono path[0] = 'D:/Unity3d/Unity 2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity3d/Unity 2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity3d/Unity 2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity3d/Unity 2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity3d/Unity 2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004544 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 122.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Domain Reload Profiling:
+	ReloadAssembly (688ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (516ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (112ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007239 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\xiexi\Desktop\Exam\Exam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\xiexi\Desktop\Exam\Exam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 135.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.683 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1687ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1466ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (873ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (552ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5555 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.1 MB). Loaded Objects now: 6034.
+Memory consumption went from 231.4 MB to 230.3 MB.
+Total: 4.253100 ms (FindLiveObjects: 0.346700 ms CreateObjectMapping: 0.179100 ms MarkObjects: 3.401600 ms  DeleteObjects: 0.324400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5868.209126 seconds.
+  path: Assets/Menu/Scenes/StartScene.unity
+  artifactKey: Guid(055485a3da498c248b9f37db85f7edcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Scenes/StartScene.unity using Guid(055485a3da498c248b9f37db85f7edcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6789b80a053200f1577c79476a7dbd9') in 0.023426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1462.596315 seconds.
+  path: Assets/Xinyan_Xie/AssetsFolder/StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx
+  artifactKey: Guid(426a2785f8a940049aac2c246661cf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xinyan_Xie/AssetsFolder/StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx using Guid(426a2785f8a940049aac2c246661cf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6fe61cfc831427b64096100889e8719') in 0.199486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Xinyan_Xie/AssetsFolder/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx
+  artifactKey: Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xinyan_Xie/AssetsFolder/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx using Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1109c2d4dc7acec6fd1ef478215d467a') in 0.091696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.047365 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/URP/Bark/Bark_3.mat
+  artifactKey: Guid(6b8dc1cc12001374d805449728a14ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/URP/Bark/Bark_3.mat using Guid(6b8dc1cc12001374d805449728a14ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d4ca979ec9273fee7215112d92e971') in 0.045331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Brown.3.mat
+  artifactKey: Guid(2852b271d0d088643a66c25efe4b5aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Brown.3.mat using Guid(2852b271d0d088643a66c25efe4b5aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df749b01c8b1dc2b954bb1b85c37685') in 0.039847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/HDRP/Bark/Bark_4.mat
+  artifactKey: Guid(7840b82a30877954a92edcd4a77a8ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/HDRP/Bark/Bark_4.mat using Guid(7840b82a30877954a92edcd4a77a8ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c8d8cad5dde34dd1808a52bffdad2b') in 0.021144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Brown.2.mat
+  artifactKey: Guid(f7c2deb7be33c61418c105b4da4da2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Brown.2.mat using Guid(f7c2deb7be33c61418c105b4da4da2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aae9c10b02b2012352402d88a54785d') in 0.042703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/Materials/Blocks.mat
+  artifactKey: Guid(c3dccef45faef604db35a1d53f2a3f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/Materials/Blocks.mat using Guid(c3dccef45faef604db35a1d53f2a3f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e90ea8acf5e9e20898644913098b1d4') in 0.243800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Brown.7.mat
+  artifactKey: Guid(4fe563c5f58ef3f428825ed56c445b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Brown.7.mat using Guid(4fe563c5f58ef3f428825ed56c445b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd953d8589f1dbf4b7bb9f7d3445205fa') in 0.036170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Brown.8.mat
+  artifactKey: Guid(fc45bd3e9d781c6469cb7e33fd1c8bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Brown.8.mat using Guid(fc45bd3e9d781c6469cb7e33fd1c8bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07d015aae45b7917c58a50e16c64594') in 0.043431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Ziru_Zhao/Models/Materials/BlockDudeLeft.mat
+  artifactKey: Guid(35d3dee508df93544a65f582d86b9bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ziru_Zhao/Models/Materials/BlockDudeLeft.mat using Guid(35d3dee508df93544a65f582d86b9bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd35a7af2dacbc5f04d01a958c00622a') in 0.049649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/HDRP/Bark/Bark_5.mat
+  artifactKey: Guid(0e8de20f422c9ac49aa5ce39cce7175a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/HDRP/Bark/Bark_5.mat using Guid(0e8de20f422c9ac49aa5ce39cce7175a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e8fa11b579752594f2b3ed73228a01') in 0.008503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Brown.9.mat
+  artifactKey: Guid(94387ac3fe852d549966d245def277be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Brown.9.mat using Guid(94387ac3fe852d549966d245def277be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e758e2872a88f7d48bf1e4654289c45c') in 0.028410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Brown.11.mat
+  artifactKey: Guid(83993d560011d9f439deb8c980381c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Brown.11.mat using Guid(83993d560011d9f439deb8c980381c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6859961f66756ed78279ec120b388f67') in 0.057678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.409291 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/HDRP/Bark/Bark_2.mat
+  artifactKey: Guid(aaf2972f7bb83ac4cb0843676c863398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/HDRP/Bark/Bark_2.mat using Guid(aaf2972f7bb83ac4cb0843676c863398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf89dbef9090fb26dfb863f229480e78') in 0.019356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/Standard/Bark/Bark_2.mat
+  artifactKey: Guid(cf039324c8342c54cb91b50baaa0374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/Standard/Bark/Bark_2.mat using Guid(cf039324c8342c54cb91b50baaa0374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80955f12e7bf1217707d3c314151be51') in 0.018045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.151772 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/URP/Bark/Bark_1.mat
+  artifactKey: Guid(d9004291ce289be4eb56b1b6662667a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/URP/Bark/Bark_1.mat using Guid(d9004291ce289be4eb56b1b6662667a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0702ef944db05bd872c28b4dbf01e16a') in 0.035892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.410741 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/Demo/Skybox.mat
+  artifactKey: Guid(f14e791cab3ea0c4397ab4827d05bebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/Demo/Skybox.mat using Guid(f14e791cab3ea0c4397ab4827d05bebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78fdc02fb0cf109a53e5073df386c12') in 0.033161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Xiangchen_Wei/Materials/WaterSkyBox.mat
+  artifactKey: Guid(4e827526bfed7834aa1629ab766bb4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xiangchen_Wei/Materials/WaterSkyBox.mat using Guid(4e827526bfed7834aa1629ab766bb4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e03bc587cf6555823c0f4eec2acd9c') in 0.237971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Xinyan_Xie/AssetsFolder/StarterAssets/Environment/Art/Skybox/SkyboxLiteWarm.mat
+  artifactKey: Guid(aeab33f69c199e54794f516d31450ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xinyan_Xie/AssetsFolder/StarterAssets/Environment/Art/Skybox/SkyboxLiteWarm.mat using Guid(aeab33f69c199e54794f516d31450ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e17cd41fe7ac3fc743e6f22807a56a') in 0.033012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Xinyan_Xie/AssetsFolder/StarterAssets/Environment/Art/Skybox/SkyboxLite.mat
+  artifactKey: Guid(f6c51332ac7d92541a38fb263b09d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xinyan_Xie/AssetsFolder/StarterAssets/Environment/Art/Skybox/SkyboxLite.mat using Guid(f6c51332ac7d92541a38fb263b09d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009743c37221dadec20a0d7bf15030ea') in 0.032862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.944701 seconds.
+  path: Assets/Xinyan_Xie/Materials/JKT_Art/cat/fbx/Materials/cat2.mat
+  artifactKey: Guid(b2e37f67d74fd5b4b921f89587ef4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xinyan_Xie/Materials/JKT_Art/cat/fbx/Materials/cat2.mat using Guid(b2e37f67d74fd5b4b921f89587ef4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45f937e1992379e790d8aa1716a4883') in 0.050982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Menu/Prefab/PlayerCat.prefab
+  artifactKey: Guid(e4b20430fc23ed84688a382c0d05c694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Prefab/PlayerCat.prefab using Guid(e4b20430fc23ed84688a382c0d05c694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743e9b06ab56e009a29f257d01d158af') in 0.113086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Xinyan_Xie/Materials/JKT_Art/cat/Materials/cat_tex.tif
+  artifactKey: Guid(63d2529121fccbd4fa259681a601c615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xinyan_Xie/Materials/JKT_Art/cat/Materials/cat_tex.tif using Guid(63d2529121fccbd4fa259681a601c615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6ec8d6a4a8076238692692d2e56ca5') in 0.079484 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007619 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\xiexi\Desktop\Exam\Exam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\xiexi\Desktop\Exam\Exam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.949 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1951ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1702ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1104ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (831ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5458 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (1.1 MB). Loaded Objects now: 6094.
+Memory consumption went from 228.9 MB to 227.9 MB.
+Total: 9.779700 ms (FindLiveObjects: 0.471900 ms CreateObjectMapping: 0.260200 ms MarkObjects: 7.649300 ms  DeleteObjects: 1.393800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 100.089802 seconds.
+  path: Assets/Ziru_Zhao/Models/Materials/defaultMat.mat
+  artifactKey: Guid(98e6c5203ec60bb4e9991ff581cb7305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ziru_Zhao/Models/Materials/defaultMat.mat using Guid(98e6c5203ec60bb4e9991ff581cb7305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce792d430443e0d541f7e69ef3b6a5ff') in 0.135813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Xiangchen_Wei/Models/Walls/Materials/defaultMat.mat
+  artifactKey: Guid(09f1fa47ff88247e58820dd5aadb44c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xiangchen_Wei/Models/Walls/Materials/defaultMat.mat using Guid(09f1fa47ff88247e58820dd5aadb44c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b1cbd92c47412ba53ff207cb97fe16') in 0.049552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Ziru_Zhao/Asset/BrokenVector/LowPolyTreePack/Materials/Fall.mat
+  artifactKey: Guid(a62e8da5194101042a4d89028ef6f912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ziru_Zhao/Asset/BrokenVector/LowPolyTreePack/Materials/Fall.mat using Guid(a62e8da5194101042a4d89028ef6f912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0b95aea7eff6f977072a248e364fff') in 0.065765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Xiangchen_Wei/Models/Materials/defaultMat.mat
+  artifactKey: Guid(db27c04d838534e2c86ca238d75a18f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xiangchen_Wei/Models/Materials/defaultMat.mat using Guid(db27c04d838534e2c86ca238d75a18f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130eb86099e2ab2a52b6569849df6b35') in 0.048726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 188.252316 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Demo_Scene
+  artifactKey: Guid(b29d7d66097da804b972056de774fce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Demo_Scene using Guid(b29d7d66097da804b972056de774fce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded2eef16a959c116f78e62874f8e440') in 0.020925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.978040 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/HDRP
+  artifactKey: Guid(135fb875b76212c40bcde8c6e1f54502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/HDRP using Guid(135fb875b76212c40bcde8c6e1f54502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4d787a355d78560f8c8fda1052da75') in 0.018927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.464543 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/HDRP/Leaves/White.png
+  artifactKey: Guid(69cfa2846d5035245a9064319758c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/HDRP/Leaves/White.png using Guid(69cfa2846d5035245a9064319758c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269c226174df4a4c478d2b3fd91d791d') in 0.037817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.095494 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Models/Basic_1.fbx
+  artifactKey: Guid(31c1cf87d12b5bc4a90bb614dadc778e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Models/Basic_1.fbx using Guid(31c1cf87d12b5bc4a90bb614dadc778e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98283d1334194339ba156aafa0ac568c') in 0.100139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.632447 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Models/Basic_2_2.fbx
+  artifactKey: Guid(8671b84fa3827ba4f8483a6260d95d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Models/Basic_2_2.fbx using Guid(8671b84fa3827ba4f8483a6260d95d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8668a0f572b3fad0b2b1176f7db544') in 0.071845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.172937 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Models/Big.fbx
+  artifactKey: Guid(18948ae75144fc04fbdda6c1802e454e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Models/Big.fbx using Guid(18948ae75144fc04fbdda6c1802e454e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b47d98d717f46feb2ff5dc4afaaf54b') in 0.056724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.864860 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Models/Basic_Rounded.fbx
+  artifactKey: Guid(5e8be0b0d58a76a449be3e91e3cfe37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Models/Basic_Rounded.fbx using Guid(5e8be0b0d58a76a449be3e91e3cfe37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdc701deecfbd12e1bf6059f10bb3dc') in 0.076212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Models/Basic_2_1.fbx
+  artifactKey: Guid(d2c4c1a03f908cf409026186b0ff0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Models/Basic_2_1.fbx using Guid(d2c4c1a03f908cf409026186b0ff0f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c675edc552ac7f516e07a9a5195a17aa') in 0.050166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Tree_2.fbx
+  artifactKey: Guid(24a759921bedc2541881a0535a7bfcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Tree_2.fbx using Guid(24a759921bedc2541881a0535a7bfcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1893cc4fd82c24aef8ed06b0d1b451') in 0.063373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Tree_1.fbx
+  artifactKey: Guid(c52a1ad28de5ec447a225e11be0fe132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Tree_1.fbx using Guid(c52a1ad28de5ec447a225e11be0fe132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae83d49a9a5f54c25561f04fa73fd6f1') in 0.058174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.351550 seconds.
+  path: Assets/Xiangchen_Wei/Asset/FS Loot Boxes/Assets/Models/TreasureChest/TreasureChestModel.fbx
+  artifactKey: Guid(04e27938ddcc448788f353cc4737362f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xiangchen_Wei/Asset/FS Loot Boxes/Assets/Models/TreasureChest/TreasureChestModel.fbx using Guid(04e27938ddcc448788f353cc4737362f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a43854aea0b12c63c5145ced21f8b0') in 0.117513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.487709 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Models/Weeping Willow.fbx
+  artifactKey: Guid(1de7a6f179162db478441569c17ec2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Models/Weeping Willow.fbx using Guid(1de7a6f179162db478441569c17ec2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b94d4f5e9dbaa7f1afb858cf858f30') in 0.046442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Grass_1.fbx
+  artifactKey: Guid(34dfeb3f659c70946a7698f1846d752b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Grass_1.fbx using Guid(34dfeb3f659c70946a7698f1846d752b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0e096add36c59d83b2cb3163f31282') in 0.055398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Models/Big_2.fbx
+  artifactKey: Guid(741bef40697b6f1469ea30d5ce78cc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Models/Big_2.fbx using Guid(741bef40697b6f1469ea30d5ce78cc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede415783c26ad8e9d3fd8954a1c2010') in 0.079618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.118796 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Yellow.3.mat
+  artifactKey: Guid(62c01cd363116e4418505d6d72764b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Yellow.3.mat using Guid(62c01cd363116e4418505d6d72764b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e101fc2729182d18e58820a8da231b') in 0.026831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Xiangchen_Wei/Models/Rocks/Materials/YellowDark.mat
+  artifactKey: Guid(b88e0fc7e45705447a8ba6969dba4d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xiangchen_Wei/Models/Rocks/Materials/YellowDark.mat using Guid(b88e0fc7e45705447a8ba6969dba4d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debcdf0fbcfc864ceecd35c70943132c') in 0.043096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.587016 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Textures/White.mat
+  artifactKey: Guid(b7d1f026660297d45a3a26ee2bf21196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Textures/White.mat using Guid(b7d1f026660297d45a3a26ee2bf21196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef120ed97553dadcebb2b2eae5a3ee2') in 0.041429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Xiangchen_Wei/Materials/Water.mat
+  artifactKey: Guid(6976eaf530e19d24ca31bc6d526fb24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xiangchen_Wei/Materials/Water.mat using Guid(6976eaf530e19d24ca31bc6d526fb24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34505c200b97eaf44f6b9dadccfd4293') in 0.038759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.292378 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/Materials/Walls.mat
+  artifactKey: Guid(e9e857c3e8825714d8c46771e03b38be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/Materials/Walls.mat using Guid(e9e857c3e8825714d8c46771e03b38be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e379994a81a21d787d603dc1de0b5a5') in 0.069912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Xiangchen_Wei/Asset/FS Loot Boxes/Demo/Demo Assets/StoneWallMaterial.mat
+  artifactKey: Guid(aba0732daab8a45939499f84eaa6530c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xiangchen_Wei/Asset/FS Loot Boxes/Demo/Demo Assets/StoneWallMaterial.mat using Guid(aba0732daab8a45939499f84eaa6530c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5350a2985f742c0852d0b9fcefc11a8') in 0.056179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.101817 seconds.
+  path: Assets/Ziru_Zhao/Models/Materials/spikeLane.mat
+  artifactKey: Guid(03f68f650b4ee9d499302558cf3832be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ziru_Zhao/Models/Materials/spikeLane.mat using Guid(03f68f650b4ee9d499302558cf3832be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140fb78879a503bb49600f095825395a') in 0.048285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/Particles/Star.mat
+  artifactKey: Guid(f662684e3a29db34195d769047debf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/Particles/Star.mat using Guid(f662684e3a29db34195d769047debf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a7d53147ac1fae4e566fb4a441a771') in 0.073687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.379619 seconds.
+  path: Assets/Ziru_Zhao/Models/Materials/rock.mat
+  artifactKey: Guid(55ce5ab9d5a329d4481ab3582e79ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ziru_Zhao/Models/Materials/rock.mat using Guid(55ce5ab9d5a329d4481ab3582e79ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fcab20f7dd5587683b74990b47f125') in 0.058127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.291017 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Purple.1.mat
+  artifactKey: Guid(f9e8a256b2e009743bcefbdabbb05382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Purple.1.mat using Guid(f9e8a256b2e009743bcefbdabbb05382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53ede13d2cb71e3f29be1aa9c40457b') in 0.026515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.144853 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/Materials/Paddle.mat
+  artifactKey: Guid(7f4ddb390f87ef64da8972eeafcb5e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/Materials/Paddle.mat using Guid(7f4ddb390f87ef64da8972eeafcb5e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aacc125dd66c0108a0f31aa5537f3c9') in 0.034563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068483 seconds.
+  path: Assets/Ziru_Zhao/Asset/BrokenVector/LowPolyTreePack/Materials/Normal.mat
+  artifactKey: Guid(fe3e3b8ebc1a32647b48b7ea88f534a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ziru_Zhao/Asset/BrokenVector/LowPolyTreePack/Materials/Normal.mat using Guid(fe3e3b8ebc1a32647b48b7ea88f534a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7dbdde374aa43bd84d7f63300749d6') in 0.047181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.442354 seconds.
+  path: Assets/Xinyan_Xie/AssetsFolder/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat
+  artifactKey: Guid(43714b68324cc2c409d534d9874f2a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xinyan_Xie/AssetsFolder/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat using Guid(43714b68324cc2c409d534d9874f2a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5d076e6200a2929b38a38e4ac58e83') in 0.182044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/Standard/Leaves/Leaf_2.mat
+  artifactKey: Guid(583625ce2e37d6b45812e6a59369c4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/Standard/Leaves/Leaf_2.mat using Guid(583625ce2e37d6b45812e6a59369c4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084428faf7548c94021a3475a503b18e') in 0.046354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/HDRP/Leaves/Leaf_3.mat
+  artifactKey: Guid(4e8e5b00171040d468e1e29c884eefda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/HDRP/Leaves/Leaf_3.mat using Guid(4e8e5b00171040d468e1e29c884eefda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f8f777bfc3961380598b66fc27da8d') in 0.047081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/Standard/Leaves/Leaf_3.mat
+  artifactKey: Guid(270e1926355012b408ab637aede0b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/Standard/Leaves/Leaf_3.mat using Guid(270e1926355012b408ab637aede0b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2d1312bb7ac64fe2d589a26479df8d') in 0.025218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/Standard/Leaves/Leaf_5.mat
+  artifactKey: Guid(5fddad76f595dbb45957123395c8e2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/Standard/Leaves/Leaf_5.mat using Guid(5fddad76f595dbb45957123395c8e2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f75ddab0588e9d828e4755a810b955') in 0.030149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/HDRP/Leaves/Leaf_5.mat
+  artifactKey: Guid(67cd6ec82e6f2d64ca0f555d41c35731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/HDRP/Leaves/Leaf_5.mat using Guid(67cd6ec82e6f2d64ca0f555d41c35731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34b0f0b8aac89c86967225f97223c10') in 0.018281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.204820 seconds.
+  path: Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/Standard/Leaves/Leaf_1.mat
+  artifactKey: Guid(e87f69d49a64cd943a0c18fff3673dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu/Asset/Stylized Simple Tree Pack/Source/Materials/Standard/Leaves/Leaf_1.mat using Guid(e87f69d49a64cd943a0c18fff3673dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c018493e2e34777b099a5b3cdeaf28') in 0.033706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.031672 seconds.
+  path: Assets/Xinyan_Xie/AssetsFolder/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx
+  artifactKey: Guid(f712806514868e54699156ec05dcb749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xinyan_Xie/AssetsFolder/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx using Guid(f712806514868e54699156ec05dcb749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b7216d7895913948696ac8b3f1fdd4') in 0.065169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.673713 seconds.
+  path: Assets/Xinyan_Xie/AssetsFolder/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx
+  artifactKey: Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xinyan_Xie/AssetsFolder/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx using Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b3b9b34d6f8b09f5b05a98e14575e2') in 0.051210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.805721 seconds.
+  path: Assets/Xinyan_Xie/AssetsFolder/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat
+  artifactKey: Guid(6b911390c5825014e8377183a7837d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xinyan_Xie/AssetsFolder/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat using Guid(6b911390c5825014e8377183a7837d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c906230f962635156047e50f9924a6') in 0.031299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.085148 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Green.10.mat
+  artifactKey: Guid(aa67d82998ecf8841a3adf9bfa27b1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Green.10.mat using Guid(aa67d82998ecf8841a3adf9bfa27b1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6934b0cb77a25959ca922d196790f105') in 0.020626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Green.12.mat
+  artifactKey: Guid(546fdfe5df99cb34bb14981f56cfca29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Green.12.mat using Guid(546fdfe5df99cb34bb14981f56cfca29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be70e44e3e12f5af6231c676e12882eb') in 0.023859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.432786 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Green.6.mat
+  artifactKey: Guid(487de112f12801e47ab0f2a09cce7854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Green.6.mat using Guid(487de112f12801e47ab0f2a09cce7854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34a599761a632240679ddbeee738913') in 0.036064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Green.8.mat
+  artifactKey: Guid(7a0a96a93ebc4d94a9f9d22e70389f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Green.8.mat using Guid(7a0a96a93ebc4d94a9f9d22e70389f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee03408b4ba686088e94721dd7d06a6') in 0.047138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.194058 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Green.2.mat
+  artifactKey: Guid(59ef7dc611ee0474092dff5c29ab828f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Green.2.mat using Guid(59ef7dc611ee0474092dff5c29ab828f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defb78c1214822f42a79b4b90521ccbb') in 0.020294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Green.4.mat
+  artifactKey: Guid(431d3f3310498c2488a88bac6acf6f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Green.4.mat using Guid(431d3f3310498c2488a88bac6acf6f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c56f16baac6e392c945702fb9763cc') in 0.033658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039328 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Gray.2.mat
+  artifactKey: Guid(e2f44d83259a3c14abd33197677dbc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Gray.2.mat using Guid(e2f44d83259a3c14abd33197677dbc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32ce2c5b855d5058089b45bef96dd29') in 0.068718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.353301 seconds.
+  path: Assets/Ziru_Zhao/Asset/BrokenVector/LowPolyTreePack/Materials/Cold.mat
+  artifactKey: Guid(d945c681c4504df439962c1a6f33d8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ziru_Zhao/Asset/BrokenVector/LowPolyTreePack/Materials/Cold.mat using Guid(d945c681c4504df439962c1a6f33d8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f11c451bd7b5cdafbe0b614b1c8cf1f') in 0.073619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Brown.15.mat
+  artifactKey: Guid(27eb693623b74ae409ad01480c04d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meixin_Pan/AssetsFolder/LowPoly Environment Pack/FBX/Materials/Brown.15.mat using Guid(27eb693623b74ae409ad01480c04d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12dcf165fbf714e31919cc45fd635dfd') in 0.027063 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
