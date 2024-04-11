@@ -1,0 +1,593 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1712818322406002, "dur": 3534900, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1712818322406283, "dur": 11250, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1712818322417537, "dur": 32572, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1712818322450198, "dur": 3242480, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1712818325692680, "dur": 236150, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1712818325928832, "dur": 12069, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1712818325941506, "dur": 15, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1712818325037553, "dur": 610248, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1712818325038970, "dur": 116589, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1712818325617991, "dur": 9611, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1712818325627607, "dur": 20178, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1712818325628937, "dur": 17581, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1712818325655516, "dur": 1876, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1712818325654497, "dur": 2930, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1712818325941618, "dur": 165, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1712818325742021, "dur":2934, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325744964, "dur":355, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1712818325745341, "dur":33, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1712818325745374, "dur":564, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1712818325745957, "dur":532, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325746489, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882291, "dur":552, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882843, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882860, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882869, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882894, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882897, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882917, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882920, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882930, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882932, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882939, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882942, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882951, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882953, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882960, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882962, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882971, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882974, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882981, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882983, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882992, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325882994, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883001, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883003, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883012, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883014, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883023, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883026, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883033, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883035, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883044, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883046, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883053, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883055, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883063, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883065, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883072, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883075, "dur":41, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883117, "dur":13, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883130, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883146, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883167, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325883205, "dur":10728, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1712818325746054, "dur":445, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712818325746501, "dur":3031, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712818325749541, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1712818325749544, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712818325749638, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1712818325749643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712818325751651, "dur":25337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1712818325776990, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712818325777020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712818325777025, "dur":3233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712818325780282, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712818325780310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712818325780316, "dur":3210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712818325783551, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712818325783602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712818325783612, "dur":3983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712818325787619, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712818325787734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712818325787740, "dur":3497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712818325791276, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712818325791333, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712818325791339, "dur":4541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712818325795910, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712818325795941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712818325795947, "dur":5573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712818325801552, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712818325801603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712818325801609, "dur":6212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712818325807844, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712818325807869, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712818325807873, "dur":4398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712818325812377, "dur":21689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1712818325834072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712818325834082, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1712818325835321, "dur":47048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712818325746634, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712818325746635, "dur":3398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712818325750033, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712818325750068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712818325751605, "dur":41265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712818325792884, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712818325792932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712818325792937, "dur":6156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712818325799116, "dur":1208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712818325800327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712818325800332, "dur":5046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712818325805404, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712818325805437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712818325805443, "dur":10123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712818325819093, "dur":63204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712818325746720, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712818325746720, "dur":3291, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712818325750011, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1712818325750033, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712818325752101, "dur":37461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1712818325789575, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712818325789609, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712818325789613, "dur":3839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712818325793475, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712818325793499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712818325793504, "dur":3853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712818325797378, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712818325797459, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712818325797464, "dur":4091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712818325801814, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712818325801903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712818325801908, "dur":8015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712818325809952, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1712818325809981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712818325809986, "dur":5822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1712818325815836, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1712818325815865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712818325815870, "dur":6337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1712818325822240, "dur":60009, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712818325746757, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712818325746757, "dur":3226, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712818325749983, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1712818325750005, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712818325879869, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1712818325881738, "dur":573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712818325746787, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712818325746788, "dur":3175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712818325749963, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1712818325749984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712818325752275, "dur":29325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1712818325781617, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712818325781652, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712818325781657, "dur":3738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712818325785420, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712818325785457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712818325785462, "dur":3202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712818325788690, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712818325788740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712818325788746, "dur":2474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712818325791247, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712818325791276, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712818325791281, "dur":3574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712818325794878, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712818325795192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712818325795197, "dur":7410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712818325802637, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712818325802666, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712818325802671, "dur":8059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712818325810758, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1712818325810788, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712818325810792, "dur":10257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1712818325821074, "dur":61205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712818325746834, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712818325746835, "dur":3093, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712818325749928, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1712818325749978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712818325879412, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1712818325881440, "dur":800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712818325746869, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712818325746869, "dur":3044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712818325749914, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1712818325749950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712818325764108, "dur":4896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1712818325769018, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712818325769053, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712818325769058, "dur":4767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712818325773848, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712818325773877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712818325773881, "dur":4723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712818325778644, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712818325778692, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712818325778697, "dur":10813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712818325789647, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712818325789941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712818325789964, "dur":8531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712818325798566, "dur":1339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712818325799909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712818325799918, "dur":7286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712818325807232, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712818325807258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712818325807264, "dur":8788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712818325816077, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1712818325816104, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712818325816109, "dur":5098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1712818325821243, "dur":61041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712818325747228, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712818325747228, "dur":2310, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712818325749542, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1712818325749599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712818325755381, "dur":31630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1712818325787109, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712818325787168, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712818325787173, "dur":4402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712818325791601, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712818325791631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712818325791636, "dur":4323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712818325795982, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712818325796146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712818325796151, "dur":8675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712818325804851, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712818325804877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712818325804882, "dur":6737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712818325811877, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1712818325812172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712818325812177, "dur":8222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1712818325820429, "dur":61847, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712818325746908, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712818325746909, "dur":2995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712818325749904, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1712818325749933, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712818325762994, "dur":6419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1712818325769424, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712818325769454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712818325769459, "dur":4031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712818325773513, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712818325773557, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712818325773562, "dur":13109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712818325786699, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712818325786730, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712818325786738, "dur":2796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712818325789565, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712818325789603, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712818325789608, "dur":4743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712818325794377, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712818325794403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712818325794407, "dur":5603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712818325800076, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712818325800127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712818325800135, "dur":7553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712818325807716, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712818325807746, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712818325807751, "dur":7568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712818325815348, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1712818325815377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712818325815382, "dur":6018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1712818325821422, "dur":60906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712818325746940, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712818325746940, "dur":2894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712818325749834, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1712818325749861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712818325759941, "dur":6566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1712818325766522, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325766580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712818325766723, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325768932, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325768965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712818325768971, "dur":4203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325773196, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325773222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712818325773227, "dur":6969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325780226, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325780260, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712818325780265, "dur":3029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325783320, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325783352, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712818325783357, "dur":5205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325788657, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325788688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712818325788694, "dur":9223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325797946, "dur":599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325798548, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712818325798553, "dur":3529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325802106, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325802136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712818325802140, "dur":6540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325808706, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325809038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712818325809044, "dur":11961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712818325821029, "dur":61223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712818325746983, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712818325746983, "dur":2804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712818325749787, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1712818325750244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712818325752311, "dur":38774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1712818325791103, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712818325791135, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712818325791140, "dur":3495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712818325794660, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712818325794764, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712818325794784, "dur":5200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712818325800007, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712818325800305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712818325800311, "dur":5249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712818325805584, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712818325805618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712818325805624, "dur":9332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712818325814988, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1712818325815014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712818325815021, "dur":6596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1712818325821644, "dur":60599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712818325747015, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712818325747015, "dur":2765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712818325749780, "dur":508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1712818325750289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712818325754489, "dur":36808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1712818325791308, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712818325791340, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712818325791344, "dur":3146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712818325794516, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712818325794691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712818325794698, "dur":4857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712818325799579, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712818325799606, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712818325799627, "dur":3714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712818325803363, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712818325803388, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712818325803393, "dur":6506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712818325809931, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1712818325809961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712818325810231, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1712818325811508, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1712818325811534, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712818325811555, "dur":9315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1712818325820895, "dur":61379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712818325746292, "dur":359, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712818325746651, "dur":3078, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712818325749730, "dur":531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1712818325750263, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712818325760883, "dur":5248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1712818325766143, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1712818325766170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712818325766376, "dur":10433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1712818325776833, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712818325776865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712818325776871, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712818325779592, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712818325779618, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712818325779623, "dur":2951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712818325782597, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712818325782628, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712818325782633, "dur":7501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712818325790253, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712818325790503, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712818325790552, "dur":7480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712818325798057, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712818325798202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712818325798208, "dur":3627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712818325801867, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712818325801894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712818325801899, "dur":6746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712818325808701, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712818325808732, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712818325808737, "dur":7557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712818325816317, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1712818325816343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712818325816348, "dur":5153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1712818325821524, "dur":60762, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325746331, "dur":336, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325746668, "dur":3005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325749673, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1712818325749703, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325757449, "dur":8073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1712818325765536, "dur":764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3.exe" }}
+,{ "pid":12345, "tid":14, "ts":1712818325766303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325766309, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3.exe" }}
+,{ "pid":12345, "tid":14, "ts":1712818325767693, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325767727, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325767769, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325768845, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325768884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325768890, "dur":2857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325771776, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325771806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325771812, "dur":3830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325775666, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325775700, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325775705, "dur":6448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325782192, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325782226, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325782231, "dur":4338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325786596, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325786627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325786633, "dur":2715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325789390, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325789421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325789427, "dur":3327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325792779, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325792807, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325792811, "dur":5809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325798643, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325798738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325798747, "dur":4038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325802812, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325802847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325802853, "dur":6986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325809868, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325809904, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325810431, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712818325811522, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":14, "ts":1712818325811678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325811686, "dur":6209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":14, "ts":1712818325817929, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1712818325818024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712818325818030, "dur":3707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1712818325821758, "dur":60515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712818325747116, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712818325747117, "dur":2614, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712818325749732, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1712818325750145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712818325754445, "dur":3205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1712818325757666, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325757698, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712818325757738, "dur":18355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325776112, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325776567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712818325776574, "dur":3442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325780038, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325780323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712818325780329, "dur":3380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325783729, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325783752, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712818325783757, "dur":3037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325786818, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325786847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712818325786851, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325789274, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325789302, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712818325789309, "dur":3110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325792445, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325792477, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712818325792485, "dur":4582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325797108, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325797558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712818325797564, "dur":7363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325804968, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325804995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712818325805001, "dur":13215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712818325818241, "dur":64069, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712818325747147, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712818325747147, "dur":2579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712818325749727, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1712818325749750, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712818325761392, "dur":7441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1712818325768847, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325768887, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712818325768892, "dur":3641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325772559, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325772588, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712818325772593, "dur":5257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325777872, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325777901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712818325777907, "dur":2679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325780612, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325780655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712818325780677, "dur":3953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325784655, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325784718, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712818325784723, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325787475, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325787499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712818325787503, "dur":3399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325790929, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325790960, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712818325790965, "dur":2702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325793779, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325793813, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712818325793818, "dur":5499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325799353, "dur":1001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325800357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712818325800363, "dur":5272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325805660, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325805688, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712818325805693, "dur":4797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712818325810515, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1712818325810540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712818325810545, "dur":4875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1712818325815442, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/level1" }}
+,{ "pid":12345, "tid":16, "ts":1712818325815468, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712818325815471, "dur":4560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/level1" }}
+,{ "pid":12345, "tid":16, "ts":1712818325820055, "dur":62190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712818325747175, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712818325747175, "dur":2471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712818325749646, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":17, "ts":1712818325749696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712818325753782, "dur":4137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":17, "ts":1712818325757932, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712818325757966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712818325757971, "dur":30506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712818325788499, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712818325788532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712818325788538, "dur":2576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712818325791142, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712818325791172, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712818325791177, "dur":2939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712818325794163, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712818325794214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712818325794220, "dur":3705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712818325797957, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712818325798063, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712818325798068, "dur":3635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712818325801732, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712818325801775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712818325801782, "dur":5992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712818325807803, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712818325807832, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712818325807837, "dur":5153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712818325813016, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/resources.resource" }}
+,{ "pid":12345, "tid":17, "ts":1712818325813041, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712818325813046, "dur":6764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/resources.resource" }}
+,{ "pid":12345, "tid":17, "ts":1712818325819863, "dur":62415, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1712818325747190, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1712818325747191, "dur":2354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1712818325749550, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":18, "ts":1712818325749626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1712818325752816, "dur":38739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":18, "ts":1712818325791572, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712818325791662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1712818325791666, "dur":8808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712818325800496, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712818325800519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1712818325800524, "dur":7341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712818325807889, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712818325807919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1712818325807934, "dur":11286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712818325819262, "dur":63027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1712818325747218, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1712818325747219, "dur":2316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1712818325749541, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":19, "ts":1712818325749614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1712818325880419, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":19, "ts":1712818325882155, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":19, "ts":1712818325882158, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712818325746379, "dur":304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712818325746683, "dur":2976, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712818325749660, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":20, "ts":1712818325749697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712818325756931, "dur":6213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":20, "ts":1712818325763162, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":20, "ts":1712818325763228, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712818325763234, "dur":9257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":20, "ts":1712818325772505, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325772543, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712818325772549, "dur":2607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325775182, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325775213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712818325775219, "dur":3726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325778973, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325779004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712818325779010, "dur":2599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325781632, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325781668, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712818325781673, "dur":4270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325785974, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325786080, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712818325786085, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325788794, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325788825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712818325788831, "dur":2883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325791745, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325791774, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712818325791792, "dur":4049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325795867, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325796367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712818325796372, "dur":6182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325802578, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325802604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712818325802610, "dur":7114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325809767, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325810016, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712818325810021, "dur":7059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712818325817102, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":20, "ts":1712818325817125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712818325817130, "dur":4014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/xiexi/Desktop/Xinyan's MenuAndScene/DUE3_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":20, "ts":1712818325821182, "dur":61114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712818325896760, "dur":2579, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1712818325941841, "dur": 8971, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1712818325941491, "dur": 9356, "ph": "X", "name": "Write chrome-trace events", "args": {} },
