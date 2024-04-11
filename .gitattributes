@@ -1,3 +1,4 @@
 Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.bc filter=lfs diff=lfs merge=lfs -text
 Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
 Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/GameAssembly.bc filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@1.8.2/.Runtime/libburst-llvm-14.dylib filter=lfs diff=lfs merge=lfs -text
